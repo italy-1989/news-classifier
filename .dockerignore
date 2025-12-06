@@ -1,0 +1,31 @@
+# Данные
+train.csv
+test.csv
+
+# Виртуальные окружения
+.venv/
+
+# Временные файлы
+*.log
+*.tmp
+*.temp
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.idea/
+
+# Git файлы
+.git/
+.gitignore
+
+# Системные файлы
+Thumbs.db
+
+# Логи и результаты
+logs/
+results/
+
+# Большие файлы и архивы
+*.zip
+results/

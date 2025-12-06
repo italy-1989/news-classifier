@@ -1,0 +1,40 @@
+# Модели 
+*.onnx
+*.onnx.data
+news_classification_model_best/
+
+# Данные
+train.csv
+test.csv
+
+# Виртуальные окружения
+.venv/
+
+# Временные файлы
+*.log
+*.tmp
+*.temp
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.idea/
+
+# Docker (кроме необходимых файлов)
+.docker/
+docker-data/
+!Dockerfile
+!docker-compose.yml
+!.dockerignore
+
+# Системные файлы
+Thumbs.db
+
+# Логи и результаты
+logs/
+results/
+news_classification_model_best/
+
+# Большие файлы и архивы
+*.zip
+results/
